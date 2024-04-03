@@ -66,7 +66,7 @@ const MapPage = () => {
   }, [response]);
 
   function myFunction() {
-    map?.panTo(pointA);
+    map?.panTo(center);
   }
 
   return (
