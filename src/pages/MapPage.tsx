@@ -34,7 +34,7 @@ const MapPage = () => {
   };
 
   useEffect(() => {
-    console.log()
+    console.log(import.meta.env.VITE_CHAVE_API)
     setPointA({ lat: -23.617726193676745, lng: -46.578941201123854 });
     setPointB({ lat: -23.625046561701133, lng: -46.52039028647473 });
     setOrigin({ lat: -23.617726193676745, lng: -46.578941201123854 });
