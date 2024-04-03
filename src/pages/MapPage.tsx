@@ -17,7 +17,7 @@ const center = {
 const MapPage = () => {
   const [map, setMap] = React.useState<google.maps.Map>();
   const [pointA, setPointA] = React.useState<
-    google.maps.LatLngLiteral | google.maps.LatLng | undefined
+    google.maps.LatLngLiteral | google.maps.LatLng 
   >();
   const [pointB, setPointB] = React.useState<google.maps.LatLngLiteral>();
   const [origin, setOrigin] = React.useState<google.maps.LatLngLiteral | null>(
