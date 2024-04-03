@@ -4,10 +4,10 @@ import {
   GoogleMap,
   LoadScript,
   Marker,
-  StandaloneSearchBox,
 } from '@react-google-maps/api';
 import './MapPage.css';
 import React, { useEffect } from 'react';
+
 
 const center = {
   lat: -23.62178148779765,
@@ -34,6 +34,7 @@ const MapPage = () => {
   };
 
   useEffect(() => {
+    console.log()
     setPointA({ lat: -23.617726193676745, lng: -46.578941201123854 });
     setPointB({ lat: -23.625046561701133, lng: -46.52039028647473 });
     setOrigin({ lat: -23.617726193676745, lng: -46.578941201123854 });
@@ -71,7 +72,7 @@ const MapPage = () => {
   return (
     <div className="map">
       <LoadScript
-        googleMapsApiKey="AIzaSyB3Qj7ytVrui6Psa-sR5cJgyFAStIQAPx0"
+        googleMapsApiKey={import.meta.env.VITE_CHAVE_API}
         libraries={['places']}
       >
         <GoogleMap
