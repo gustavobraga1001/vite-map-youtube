@@ -1,0 +1,30 @@
+.footer{
+    position: fixed;
+    bottom:0;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    align-items: center;
+    background-color: white;
+}
+
+.footer a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+@media (min-width: 1024px) {
+    .footer {
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        left: 0;
+        width: 80px;
+        height: 100%;
+        justify-content: space-around;
+    }
+}

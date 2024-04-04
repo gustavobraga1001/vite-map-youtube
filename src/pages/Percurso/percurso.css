@@ -1,0 +1,11 @@
+
+.map-container-box{
+    width: 100vw;
+    height: 90vh;
+}
+
+@media (min-width: 1024px) {
+    .box-percurso {
+        padding-left: 80px;
+    }
+}

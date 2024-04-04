@@ -1,0 +1,36 @@
+.bemvindo {
+    margin: 15px 0px;
+    border: 1px solid black;
+    max-width: 400px;
+    height: 100px;
+    border-radius: 15px;
+    background: linear-gradient(to left, rgba(168, 212, 249, 1), rgba(255, 255, 255, 1));
+    display: flex;
+    padding: 5px 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bemvindo .titulo {
+    display: flex;
+    flex-direction: column;
+    width: 71%;
+    gap: 3px;
+}
+
+.bemvindo .titulo h2 {
+    font-size: 25px;
+}
+
+.bemvindo .titulo p {
+    font-size: 15px;
+}
+
+.bemvindo img {
+    width: 23%;
+    height: 80%;
+}
+
+@media (min-width: 1024px) { 
+    
+}

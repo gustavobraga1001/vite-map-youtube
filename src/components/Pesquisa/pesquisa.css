@@ -1,0 +1,29 @@
+.pesquisa {
+    margin-top: 10px;
+    margin: 10px 15px;
+    display: flex;
+    max-width: 400px;
+    height: 60px;
+    border-radius: 5px;
+    gap: 20px;
+    align-items: center;
+    background-color: aqua;
+  }
+  
+  .pesquisa input {
+    border: none;
+    font-size: 17px;
+    font-weight: 400;
+    color: #AAAAAA;
+    width: 100%;
+    background-color: transparent;
+    height: 100%;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .pesquisa img {
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+  }

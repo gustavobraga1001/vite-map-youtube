@@ -1,0 +1,17 @@
+
+header, main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.busca-titulo, main {
+    padding: 0 15px;
+}
+
+.busca-titulo {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 30px;
+}
+
